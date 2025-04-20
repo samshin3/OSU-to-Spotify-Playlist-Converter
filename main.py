@@ -32,7 +32,7 @@ def spotify_query(token, flat_list):
     return search_query, errors, len(spotify_uris)
 
 app = Flask(__name__)
-app.secret_key = "43j681a9-129j-0962-b936-9f1254093461"
+app.secret_key = 
 
 @app.route("/")
 def index():
